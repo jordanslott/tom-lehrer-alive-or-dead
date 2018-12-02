@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if curl -s https://en.wikipedia.org/wiki/Tom_Lehrer | grep -q Dead; then
-    echo Dead
+    echo Dead :(
 else
-    echo Alive
+    echo Alive :)
 fi
